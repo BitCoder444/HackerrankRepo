@@ -1,0 +1,66 @@
+/* This problem is different. I was given n, and n input numbers that were integers.
+ * My task was to find and print the inverse value for each original value that was
+ * given to me.
+Sample Input#00
+
+3
+1 2 3
+
+Sample Output#00
+
+1
+2
+3
+
+Sample Input#01
+
+3
+2 3 1
+
+Sample Output#01
+
+3
+1
+2
+*/
+
+import java.io.*;
+import java.util.*;
+
+public class Solution {
+
+    public static void main(String[] args) {
+        int[] nums;
+        
+        nums = fillArray();
+        
+        for (int num: nums)
+        {
+            System.out.println(nums[num - 1]);
+        }
+    }
+    
+    /* Console input first line: n
+     * Second line: n number of integers
+     * Returns array of ints.
+     * */
+    public static int[] fillArray()
+    {
+        int length;
+        int index;
+        int[] nums;
+        Scanner sc;
+
+        index = 0;
+        sc = new Scanner(System.in);
+        length = sc.nextInt();
+        nums = new int[length];
+
+        while (index < length)
+        {
+            nums[index] = sc.nextInt();
+            index++;
+        }
+        return nums;
+    }
+}
