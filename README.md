@@ -1,5 +1,5 @@
 # HackerrankRepo
 
-###### Overview
-This is just a collection of files holding my source code produced on hackerrank. I just started using Github, so I guess I'm a GitHub noob. Let me know if anyone has any questions about this repository.
+#### Overview
+Each file may or may not have descriptive documentation, please be advised. Most programs in this repository have unique characteristics. 
 
