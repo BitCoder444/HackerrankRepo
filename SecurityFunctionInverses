@@ -30,37 +30,25 @@ import java.util.*;
 public class Solution {
 
     public static void main(String[] args) {
-        int[] nums;
-        
-        nums = fillArray();
-        
-        for (int num: nums)
-        {
-            System.out.println(nums[num - 1]);
-        }
-    }
-    
-    /* Console input first line: n
-     * Second line: n number of integers
-     * Returns array of ints.
-     * */
-    public static int[] fillArray()
-    {
-        int length;
-        int index;
-        int[] nums;
         Scanner sc;
-
-        index = 0;
+        int length;
+        Map<Integer, Integer> map;
+        
+        map = new HashMap<Integer, Integer>();
         sc = new Scanner(System.in);
         length = sc.nextInt();
-        nums = new int[length];
-
-        while (index < length)
+        
+        for (int i = 1; i < length + 1; i++)
         {
-            nums[index] = sc.nextInt();
-            index++;
+            map.put(sc.nextInt(), i);
         }
-        return nums;
+        
+        sc.close();
+        
+        for (int i = 1; i < length + 1; i++)
+        {
+            System.out.println(map.get(i));
+        }
     }
+
 }
