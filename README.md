@@ -1,5 +1,5 @@
 # HackerrankRepo
 
 #### Overview
-![Alt text](https://media.licdn.com/media/p/7/005/08d/0cd/2da9445.png?raw=true "Optional Title")
+![Alt text](https://s3.amazonaws.com/sr-marketplace-prod/wp-content/uploads/2015/08/hackerrank.jpg?raw=true "Optional Title")
 
