@@ -1,0 +1,46 @@
+import java.io.*;
+import java.util.*;
+
+public class Solution
+{
+    public static void main(String[] args) 
+    {
+        Scanner sc = new Scanner(System.in);
+   
+        sc.nextInt(); /*The first line of input is not needed*/
+        
+        //String[] chars = {"{" ,"}" , "(", ")", "[", "]"};
+            
+        while (sc.hasNext())
+        {
+            Stack leftStack;
+            Stack rightStack;
+            String input;
+            String[] array;
+            int count;
+            
+            input = sc.next();
+            array = input.split();
+            count = 0;
+                
+            if (array.length() % 2 != 0)
+            {
+                System.out.println("NO");
+                break;
+            }
+     
+            for (String str: array)
+            {
+                if (count < array.length() / 2) 
+                {
+                    stack
+                }
+                 
+                if (count >= array.length() / 2)
+                {
+                    
+                }
+            }
+        }
+    }
+}
