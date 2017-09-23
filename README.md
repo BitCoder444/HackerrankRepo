@@ -1,6 +1,6 @@
-![N|Solid](https://blog.hackerrank.com/wp-content/uploads/2017/04/logo_HRwordmark2700x670_2-1.png)
+[![N|Solid](https://blog.hackerrank.com/wp-content/uploads/2017/04/logo_HRwordmark2700x670_2-1.png)][hck]
 ## About this repo
-- This repo is was made to hold solutions to existing hackerrank problems.
+- This repo is was made to hold solutions to existing [hackerrank][hck] problems.
 - All of the solutions here worked 100% of the time at the time they were made.
 However, the problems on hackerrank may have been update or changed. Therefore, the solutions here may not work for you.
 - The naming convention of each file is simple: take the name of the problem and add
@@ -11,3 +11,4 @@ will be able to use the name of the file.
   #### [MIT License][mit]
   
   [mit]: <https://opensource.org/licenses/MIT>
+  [hck]: <https://www.hackerrank.com/>
