@@ -6,7 +6,7 @@ However, the problems on hackerrank may have been update or changed. Therefore, 
 - The naming convention of each file is simple: take the name of the problem and add
 .java to it. That way, when it comes time to look for the original problem, you
 will be able to use the name of the file.
-
+- Each file may or may no contain comments on the original problem.
 # Lisence
   #### [MIT License][mit]
   
