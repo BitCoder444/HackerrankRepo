@@ -7,6 +7,11 @@ However, the problems on hackerrank may have been update or changed. Therefore, 
 .java to it. That way, when it comes time to look for the original problem, you
 will be able to use the name of the file.
 - Each file may or may no contain comments on the original problem.
+
+# Types of programming
+- **Procedural programming**: used to execute a sequence of statements which lead to a result. This type of programming anguage uses multiple varialbes, heavy loops and other elements, which seperates them from functional programming languages. Functions of procedural language may control variables, other than function's value returns. Ex. printing out information.
+- **Functional programming**:
+
 # Lisence
   #### [MIT License][mit]
   
